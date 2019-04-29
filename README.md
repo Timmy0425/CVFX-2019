@@ -1,5 +1,6 @@
 # Homework 4 report - Team3
 1. A sequence of moving-forward images in NTHU campus.
+
 在資電館一樓走廊拍的照片，光線和角度都有些微的差距。
 但是取景可能需要有連續的感覺，例如最後一張需要拍到一點牆壁，和第一張有點接口，才不會導致後面連接圖片有斷層感。
 
@@ -8,6 +9,7 @@
 |   ![](https://i.imgur.com/GK0Xt8N.jpg)|  ![](https://i.imgur.com/GhqqJHi.jpg)|   ![](https://i.imgur.com/AqoHTS1.jpg)| ![](https://i.imgur.com/5EMlMnZ.jpg) | ![](https://i.imgur.com/QdqfJ10.jpg) |![](https://i.imgur.com/gr4j90e.jpg)|![](https://i.imgur.com/h3U6fx3.jpg)
 
 2. Feature extraction and matching results between two images
+
 這是經過 feature extraction 後，取出 matching score 最高的幾個，相連接的結果。
 雖然線有點細，看不太清楚，但仔細看還是能看出兩張圖片的 feature 都有 match 到，每個 matching 花的時間也不會太久。
 ![](https://i.imgur.com/yb34ggS.jpg)
@@ -19,8 +21,10 @@
 
 
 3. Perform image alignment and generate infinite zooming effect
+
 因為gif的檔案太大無法上傳，所以放上google drive連結：
 [Link](https://drive.google.com/open?id=1o_INA0NdejyJtAP4yYQHJMGyWYo_Wi2B)
+
 每張圖片的連接感並沒有很好，邊邊的黑框也沒有處理掉，所以導致整體看起來是斷斷續續的，沒有 infinite zooming的感覺，但還是可以看到大致上是有 align 好，如果做 stitching 結果應該會更好看。
 
 
